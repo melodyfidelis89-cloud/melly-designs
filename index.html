@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Melly Designs — logos, flyers, banners, ID cards, frames and more. Order your design on WhatsApp.">
+  <title>Melly Designs | Your Vision, Our Creativity</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Melly Designs home">
+      <span class="brand-mark">M<span>✦</span></span>
+      <span class="brand-name">MELLY <b>DESIGNS</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#about">About</a>
+      <a class="nav-cta" href="#order">Order a design</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot"></span> GRAPHIC DESIGN STUDIO</span>
+        <h1>Your vision.<br><em>Our creativity.</em></h1>
+        <p>Stand out with custom graphics made with care. Explore our services and tell us what you need — your order goes straight to WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#order">Order your design <span>↗</span></a>
+          <a class="button button-quiet" href="#portfolio">Explore designs</a>
+        </div>
+        <div class="trust-line"><span>✦</span> Creative ideas, thoughtfully designed.</div>
+      </div>
+      <div class="hero-art" aria-label="Melly Designs brand illustration">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card card-back"><span>MD</span><small>YOUR BRAND, REIMAGINED</small></div>
+        <div class="art-card card-front">
+          <div class="mini-crown">♛</div><div class="big-monogram">M<span>✦</span></div>
+          <div class="art-word">MELLY</div><div class="art-sub">DESIGNS</div><div class="art-rule"></div>
+          <p>Your vision,<br>our creativity.</p>
+        </div>
+        <span class="floating-tag tag-one">LOGOS ✦</span><span class="floating-tag tag-two">FLYERS ✦ BANNERS</span>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading"><div><span class="eyebrow">WHAT WE CREATE</span><h2>Designs for every idea.</h2></div><p>Choose a service below to start your order.</p></div>
+      <div class="service-grid">
+        <button class="service-card" data-service="Logo design"><span class="service-icon">✦</span><strong>Logo design</strong><small>Build a memorable brand identity.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Flyer design"><span class="service-icon">▤</span><strong>Flyer design</strong><small>Promote events, products and services.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Banner design"><span class="service-icon">▱</span><strong>Banner design</strong><small>Make your message stand out.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="ID card design"><span class="service-icon">▣</span><strong>ID card design</strong><small>Clean, professional ID layouts.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Photo frame design"><span class="service-icon">▧</span><strong>Photo frames</strong><small>Personalised frames for special moments.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Certificate editing"><span class="service-icon">♧</span><strong>Certificate editing</strong><small>Formatting and design assistance.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Background change"><span class="service-icon">◐</span><strong>Background change</strong><small>Give your image a fresh setting.</small><span class="card-arrow">↗</span></button>
+        <button class="service-card" data-service="Other graphic design"><span class="service-icon">＋</span><strong>Other designs</strong><small>Have another idea? Let's discuss it.</small><span class="card-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="section-heading"><div><span class="eyebrow">A LITTLE INSPIRATION</span><h2>Creative possibilities.</h2></div><p>These are sample concepts. Replace them with your own completed work.</p></div>
+      <div class="portfolio-grid">
+        <article class="work work-logo"><span class="work-label">BRAND IDENTITY</span><div class="sample-logo">M<span>✦</span></div><h3>Make it memorable.</h3><p>Logo concept</p></article>
+        <article class="work work-flyer"><span class="work-label">PROMOTION</span><div class="flyer-shape">YOUR<br><b>NEXT BIG</b><br>THING</div><h3>Make some noise.</h3><p>Flyer concept</p></article>
+        <article class="work work-social"><span class="work-label">SOCIAL MEDIA</span><div class="social-shape"><span>CREATE</span><b>YOUR<br>OWN<br>LANE.</b></div><h3>Show up boldly.</h3><p>Social graphic concept</p></article>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="order-intro"><span class="eyebrow">LET'S MAKE IT HAPPEN</span><h2>Have an idea?<br><em>Let's design it.</em></h2><p>Fill in a few details. We'll prepare your message and open WhatsApp so you can send your request to Melly Designs.</p>
+        <div class="contact-detail"><span class="contact-icon">◉</span><div><small>WHATSAPP</small><strong>+234 812 516 9418</strong></div></div>
+      </div>
+      <form id="orderForm" class="order-form">
+        <label for="customerName">Your name</label><input id="customerName" name="customerName" placeholder="Enter your name" required>
+        <label for="service">What do you need?</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service</option><option>Logo design</option><option>Flyer design</option><option>Banner design</option><option>ID card design</option><option>Photo frame design</option><option>Certificate editing</option><option>Background change</option><option>Other graphic design</option>
+        </select>
+        <label for="details">Tell us about your idea</label><textarea id="details" name="details" rows="4" placeholder="Colours, wording, size, deadline or other details…"></textarea>
+        <label for="deadline">When do you need it? (optional)</label><input id="deadline" name="deadline" placeholder="e.g. Friday">
+        <button class="button button-gold submit-button" type="submit">Continue to WhatsApp <span>↗</span></button>
+        <p class="form-note">Your request is sent only when you press Send in WhatsApp. Prices and delivery time will be confirmed in the chat.</p>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="about-badge">M<span>✦</span></div>
+      <div><span class="eyebrow">ABOUT MELLY DESIGNS</span><h2>Good design starts with listening.</h2><p>Melly Designs creates graphics that help people, projects and businesses express their ideas. Tell us what you have in mind and let's bring it to life.</p><a class="text-link" href="https://wa.me/2348125169418" target="_blank" rel="noopener">Chat with us on WhatsApp ↗</a></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">M<span>✦</span></span><span class="brand-name">MELLY <b>DESIGNS</b></span></a><p>Your vision, our creativity.</p><span class="copyright">© <span id="year"></span> Melly Designs</span></footer>
+  <a class="whatsapp-float" href="https://wa.me/2348125169418?text=Hi%20Melly%20Designs!%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with Melly Designs on WhatsApp">✆</a>
+  <script src="app.js"></script>
+</body>
+</html>
